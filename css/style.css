@@ -5,9 +5,27 @@
 
 
 body {
-    background: black;
+    background: #202124;
     font-family: 'Gotu', sans-serif;
     font-family: 'Montserrat', sans-serif;
     color: white;
 
+}
+
+section {
+    max-width: 1440px;
+    margin-inline: auto;
+    padding: 5rem;
+    
+}
+
+.flex-2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-2 .block {
+    flex: 1 1 100%;
 }
